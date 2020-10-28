@@ -1,6 +1,6 @@
 module.exports = {
     title: '重学前端系列', 
-    description : 'Adroi',
+    description : '对前端知识点进行统一梳理',
     base : '/',
     themeConfig : {
       sidebarDepth: 2, // e'b将同时提取markdown中h2 和 h3 标题，显示在侧边栏上。

@@ -9,7 +9,9 @@ module.exports = {
         lineNumbers: true // 代码块显示行号
       },
       nav: [
-          {text: 'js知识点', link: '/js-note/'}
+          {text: 'js知识点', link: '/js-note/'},
+          {text: '前端书籍笔记', link: '/book/'}
+
       ],
       sidebar: {
         '/js-note/': [
@@ -19,6 +21,13 @@ module.exports = {
               collapsable: false,
             },
           ],
+          '/book/': [
+            {
+              title: '前端阅读书籍',
+              path: '/book/',
+              collapsable: false,
+            }
+          ]
       },
       
     },

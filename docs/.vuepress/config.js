@@ -26,6 +26,16 @@ module.exports = {
               title: '前端阅读书籍',
               path: '/book/',
               collapsable: false,
+              children: [
+                {
+                  title: '你所不知道的JavaScript（中卷）',
+                  path: '/book/book01/'
+                },
+                {
+                  title: 'JavaScript编程全解',
+                  path: '/book/book02/'
+                },
+              ]
             }
           ]
       },
